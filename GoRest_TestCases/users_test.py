@@ -82,7 +82,7 @@ class TestSet_Users(object):
         assert self.__parse_json(str(response.json()), "$.data.gender") == self.gender
         assert self.__parse_json(str(response.json()), "$.data.email") == self.email
 
-    # Test # 4 - PUT /public-api/users/123
+    # Test # 4 - PUT /public-api/users/{user_id}
     @pytest.mark.order(4)
     def test_put_a_user(self):
         my_data = {"name": "New_" + self.name, "gender":  self.gender, "email": "New_" + self.email,
