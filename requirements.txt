@@ -1,0 +1,7 @@
+requests==2.27.1
+pytest==7.1.1
+pytest-order==1.0.1
+PyYAML==6.0
+jsonpath-ng==1.5.3
+jsonpath-rw-ext==1.2.2
+jsonpath-rw==1.4.0
